@@ -7,7 +7,8 @@ const PORT = process.env.PORT ? process.env.PORT : '8080';
 var server = new WebpackDevServer(webpack(config), {
   contentBase: [
     './dist/',
-    './example/'
+    './example/',
+    './node_modules/'
   ],
   hot: true,
   historyApiFallback: true,

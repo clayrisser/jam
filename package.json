@@ -4,11 +4,13 @@
   "description": "",
   "main": "./src/jam.js",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "webcomponents.js": "git+https://github.com/webcomponents/webcomponentsjs.git"
   },
   "devDependencies": {
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
+    "babel-plugin-transform-custom-element-classes": "^0.1.0",
     "babel-preset-env": "^1.2.2",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.2"

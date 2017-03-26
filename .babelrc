@@ -5,5 +5,8 @@
         "browsers": ["> 0%"]
       }
     }]
+  ],
+  "plugins": [
+    "transform-custom-element-classes"
   ]
 }
