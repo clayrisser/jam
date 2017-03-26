@@ -1,0 +1,22 @@
+{
+  "name": "jam",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./src/jam.js",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.2.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./tools/server.js"
+  },
+  "author": "jamrizzi",
+  "license": "MIT"
+}
