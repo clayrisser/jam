@@ -20,10 +20,12 @@ var server = new WebpackDevServer(webpack(config), {
     aggregateTimeout: 300,
     poll: 1000
   },
-  stats: { colors: true }
+  stats: {
+    colors: true
+  }
 });
 
 server.listen(PORT, 'localhost', function(err) {
   if (err) console.error(err);
-  console.log('Server running at http://localhost' + PORT);
+  console.log('Server running at http://localhost:' + PORT);
 });
